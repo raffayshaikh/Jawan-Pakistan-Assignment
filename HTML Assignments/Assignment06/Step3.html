@@ -1,0 +1,94 @@
+<html>
+
+<body>
+    <center>
+        <input class="topbarStyle" style="background-color:greenyellow " ; disabled value="Step 1 : Account"
+            type="text">
+        <input class="topbarStyle" style="background-color: greenyellow " ; disabled value="Step 2 : Personal Details"
+            type="text">
+        <input class="topbarStyle" style="background-color: lightblue" ; disabled value="Step 3 : Your Review"
+            type="text">
+
+        <br>
+        <br>
+    </center>
+    <style>
+        .topbarStyle {
+
+            color: black;
+            border: none;
+            padding: 16px 32px;
+            margin: 10px 0px;
+            cursor: pointer;
+
+
+        }
+
+
+        fieldset {
+            border: 1px solid rgb(0, 0, 0);
+            width: 700px;
+            margin: 0 auto;
+            text-align: left;
+            
+        }
+
+        legend {
+            background-color: gray;
+            color: white;
+            padding: 5px 10px;
+            font-size: x-large;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        input {
+            margin: 5px;
+        }
+    </style>
+    <fieldset>
+        <legend><b>Your Review</b></legend>
+        <br>
+        <label for="opt">How did you hear about us?</label>
+        <select>
+            <option disabled selected id="opt">Select your option</option>
+            <option id="opt">Friends</option>
+            <option id="opt">Cousins</option>
+        </select>
+        <br>
+        <br>
+        <label for="visit">Would you visit again?</label>
+        <br>
+
+        <input name="1" type="radio">Yes
+        <input name="1" type="radio">No
+        <input name="1" type="radio">Maybe
+        <br>
+        <br>
+        <label for="comment">Comments:</label>
+        <br>
+        <textarea id="comment" cols="30" rows="4" placeholder="Enter Your Comment Here"></textarea>
+        <br>
+        <br><label for="">Documents:</label>
+
+        <br><input type="file">
+        <br>
+        <br>
+        <input id="signupcheckbox" type="checkbox"><label for="signupcheckbox">sign me up for email updates</label>
+        <br>
+        <br>
+        <a href="./Step2.html">
+            <input style="width: 120px;" src="./images/back.png" type="image"></a>
+
+        <a href="./Result.html">
+            <input style="width: 120px; ;" src="./images/submit.png" type="image"></a>
+
+
+    </fieldset>
+
+
+</body>
+
+</html>
